@@ -1,0 +1,10 @@
+dataset_path: "data/messidor"
+train_csv: "train_split.csv"
+val_csv: "val_split.csv"
+image_size: 384
+local_epochs: 1
+batch_size: 8
+lr: 1e-4
+weight_decay: 1e-5
+num_classes: 5
+is_regression: false
