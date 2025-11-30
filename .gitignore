@@ -1,0 +1,48 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Datasets (ignore images)
+data/**/images/
+data/**/train_images/
+data/**/test_images/
+data/**/preprocessed_images/
+data/aptos/test_images/
+data/aptos/train_images/
+data/odir/ODIR-5K/
+data/drishti/**/Images/
+data/client3_combined/images/
+
+# Model weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# logs
+logs/
+*.log
+
+# secrets
+.env
+*.pem
+*.key
