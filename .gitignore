@@ -46,3 +46,7 @@ logs/
 .env
 *.pem
 *.key
+
+# explicit raw dataset dirs to ignore
+/data/drishti/
+/data/messidor/messidor-2/
